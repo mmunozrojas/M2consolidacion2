@@ -1,0 +1,210 @@
+#digimon-table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    background: linear-gradient(to bottom, #f6d365, #fda085);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ff8800;
+  }
+  
+  #digimon-table th {
+    background-color: #f35e44;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+    border: 2px solid #dd7615;
+  }
+  
+  #digimon-table td {
+    border-bottom: 2px solid #d35f1b;
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+    border: 2px solid #e65f12;
+  }
+
+#digimon-table th,
+#digimon-table td {
+  text-align: center;
+}
+  
+  #digimon-table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  #digimon-table tr:nth-child(even) {
+    background-color: #e6e6e6;
+  }
+  
+  #digimon-table td img {
+    max-height: 30px;
+    display: block;
+    margin: auto;
+  }
+
+  #digimon-table td, #digimon-table th {
+    border-left: none;
+    border-right: none;
+  }
+
+  body {
+    color: #585a61;
+    font-family: 'Orbitron', sans-serif;
+    background-image: url("https://i.ibb.co/z84MCfS/wallpaperbetter-com-2560x1440.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+  }
+
+  #digimon-table {
+    margin-top: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    #digimon-table {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+  }
+
+  footer {
+    color: #000;
+    font-weight: bolder;
+}
+
+.table-hidden {
+    display: none;
+  }
+
+.card-hidden {
+    display: none;
+  }
+
+  .card {
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #ffcc33, #dd5d7d);
+    padding: 20px;
+  }
+  
+  .btn-outline-warning {
+    border-color: #ffcc33;
+    color: #ffcc33;
+  }
+  
+  .btn-outline-warning:hover {
+    background-color: #ffcc33;
+    color: #fff;
+  }
+
+.card {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 10px;
+  color: #ddd;
+}
+
+.card img {
+  width: 250px;
+  height: 250px;
+  margin: 10px auto;
+  display: block;
+  border-radius: 50%;
+  border: 5px solid #000;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #932aad;
+  padding-bottom: 5px;
+}
+
+.card-text {
+  font-size: 24px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #c74f3a;
+  padding-bottom: 5px;
+}
+
+
+  .navbar-nav .nav-link {
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Para la búsqueda */
+.form-control {
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  table {
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  th, td {
+    width: 33.33%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .btn-flash {
+    animation-name: flash;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes flash {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .modal.fade .modal-dialog {
+    transition: transform .5s ease-out;
+    transform: scale(0);
+  }
+  
+  .modal.fade.show .modal-dialog {
+    transform: scale(1);
+  }
+
+  
+  
+
+  /* Para la tabla */
+  /* th, td {
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  .search-result {
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  .btn {
+    font-family: 'Orbitron', sans-serif;
+  } */
